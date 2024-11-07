@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7f7f;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.game-container {
+    padding: 20px;
+    text-align: center;
+}
+
+#word-search-board {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+#word-search-board span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#found-words {
+    list-style-type: none;
+    padding: 0;
+}
